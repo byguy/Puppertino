@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <title>Home - By Guy</title>
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"/>
     <link
       href="https://fonts.googleapis.com/css?family=Inter:wght@100;400;900:500,800&display=swap"
       rel="stylesheet"
     />
+    
     <link rel="stylesheet" type="text/css" href="dist/css/buttons.css" />
     <meta charset="utf-8" />
     <meta
@@ -27,12 +29,14 @@
         --text_color_white: #FFFFFF;
         --text_color_blackish: #2D2926FF;
         --text_color_blue: #6082b6;
+        --text_color_grey: #657179;
+        --text_color_burnt_orange: #bf5700;
         --bg_page_color_blackish: #2D2926FF;
         --bg_page_color_white: #FFFFFF;
       }
       body {
         margin: 0px;
-        --font: "Inter", sans-serif;
+        --font: "league_spartan_regular";
         background: var(--bg_page_color);
       }
       img {
@@ -41,11 +45,26 @@
         max-width: 100%;
       }
       .text_black {
-        color: var(--text_color);
+        color: var(--text_color_blackish);
+      }
+      .text_red {
+        color: var(--text_color_red);
+      }
+      .text_blue {
+        color: var(--text_color_blue);
+      }
+      .text_strong_red {
+        color: var(--text_color_red);
+      }
+      .text_strong_blue {
+        color: var(--text_color_blue);
+      }
+      .text_strong_burnt_orange {
+        color: var(--text_color_burnt_orange);
       }
       .cta_pupper {
-        min-height: 80vh; 
-        background: url("/Users/guy/Desktop/TestSite/Puppertino/landing-images/by_Gradient.png"), #000;
+        min-height: 50vh; 
+        background: url("/Users/guy/Desktop/TestSite/ByGuy/landing-images/by_Gradient.png"), #000;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -56,10 +75,12 @@
       h4,
       a,
       p {
-        font-family: "Inter", sans-serif;
+        font-family: "league_spartan_regular"
       }
+      
       h1 {
-        padding-top: 20vh;
+        font-family: "league_spartan_semi_bold";
+        padding-top: 10vh;
         padding-left: 5vw;
         padding-right: 5vw;
         margin-top: 0;
@@ -70,9 +91,16 @@
       }
       h2 {
         font-size: 50px;
+        font-family: "league_spartan_medium";
+      }
+      h3 {
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 25px;
       }
       p {
-        font-size: 20px;
+        font-size: 25px;
       }
       .cta_pupper p {
         color: white;
@@ -94,102 +122,102 @@
         display: block;
         width: 100%;
       }
-      .speed_boye {
+      .liberty_mutual {
         min-height: 30vh;
-        background: url("landing-images/speed.jpg");
+        background: #f1c140;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding: 15vh 3vw;
+        opacity: 0.75;
+        padding: 10vh 3vw;
       }
       .container-no-pad .row {
         margin: 0px;
       }
-      .speed_h2,
+      .liberty_h2,
       .speed_p {
-        color: #f5f5f5;
-        text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+        color: var(--text_color_blackish);
+        
       }
-      .speed_h2 {
-        margin-bottom: 10px;
+      .liberty_h2 {
+        margin-bottom: 5px;
       }
-      .speed_p {
+      .liberty_p {
         margin: 0;
       }
       .pad_5 {
-        padding: 10vh 0vw 20vh;
+        padding: 2vh 0vw 2vh;
       }
     </style>
   </head>
   <body>
     <div class="cta_pupper">
-      <h1>Introducing By Guy</h1>
+      
+      <h1>Introducing</h1>
+
+      <br></br>
       <h2 style="color: var(--text_color_white);">
-        Let's begin.
+        Let your passion ring.
       </h2>
       <br></br>
       <a
-        href="https://drive.google.com/file/d/1MuZbyZVaOudNsCeVO0HlYwv8VIdGSWfj/preview"
-        class="p-btn p-prim-col p-btn-round"
+        href="https://github.com/byguy/"
+        class="p-btn p-btn-round"
         >Access GitHub</a
       >
+      <br></br><br></br><br></br>
       <!-- <a href="examples/" class="p-link">Read the docs</a> -->
     </div>
-    <div class="container-no-pad pad_5" id="what">
+    <div class=" container-no-pad pad_5">
       <div class="row around-xs middle-xs">
-        <h2 class="title text_black">More than a framework</h2>
-        <div class="col-xs-11 col-md-3">
-          <img src="landing-images/apple.png" />
-        </div>
+        <h2 class="title text_blue">More than just a name.</h2>
         <div class="col-xs-11 col-md-5">
-          <p class="text_black">
-            Puppertino is a framework designed based on the
-            <strong>Human guidelines</strong> and
-            <strong>iOS and macOS</strong> from Apple, while adding our own
-            flavor to the mix.<br /><br />
-            That doesn't mean that it's a direct rip-off of everything you would
-            find in the Human Guidelines. We work hard to feature components
-            that will be neccesary to build apps or websites.<br /><br />Puppertino
-            is built to work with any framework available, so if you use
-            <strong
-              >Bootstrap, Bulma, Flexbox Grid, Skeleton, or any
-              framework</strong
-            >, you should still be able to use Puppertino without problems.<br /><br />Last
-            but not least, Puppertino is <strong>modular</strong>, so if you
-            only want buttons, or form elements, you can just use them.
-          </p>
+          <img src="landing-images/byGuyDefImg.png" />
+        </div>
+        <div class="col-xs-11 col-md-offset-1 col-md-5">
+          <h3 class="text_black">
+            Learning should <strong class="text_strong_red">never</strong> stop, no matter how difficult or obscure it may be. 
+            <br></br>
+            By Guy is committed to pursuing the thing that matters most: <strong class="text_strong_red">passion</strong>. The belief that <strong class="text_strong_red">all amazing 
+              things</strong> come from that innate drive.
+            <br></br>
+            From developing applications to video editing, By Guy is committed to turning those crazy ideas into a <strong class="text_strong_red">reality</strong>. 
+            </h3>
         </div>
       </div>
     </div>
-    <div class="speed_boye container-no-pad">
+
+    <div class="liberty_mutual container-no-pad pad_5">
+      <div class="col-xs-11 col-md-5">
+        <img src="landing-images/libertyLogo_long.png" />
+      </div>
       <div class="row">
-        <div class="col-xs-11 col-md-offset-1 col-md-5">
-          <h2 class="speed_h2">Focused on speed.</h2>
-          <p class="speed_p">
-            Puppertino weights less than 50KB, making your website shine even in
-            the worst connections.
+        <div class="col-xs-11">
+          <h2 class="liberty_h2">The Internship Expereince</h2>
+          <p class="liberty_p">
+            As a TechStart Intern at Liberty Mutual Insurance, I've had the ability to push beyond my current knowledge while working for a Fortune 100 Company.
           </p>
+          <br></br>
+          <a href="#" class="p-btn p-btn-round">Explore</a>
         </div>
       </div>
     </div>
 
     <div class="container-no-pad pad_5">
-      <h2 class="title text_black">Enhance your apps.</h2>
+      <h2 class="title text_blue">About me.</h2>
       <div class="row around-xs">
         <div class="col-xs-11 col-md-5">
-          <p class="text_black">
-            If you are creating WebApps, you can use Puppertino to make your
-            apps look more like a native app without having to style a lot of
-            things.<br /><br />
-            And if you are creating a website for a macOS / iOS app, Puppertino
-            can help you make it look nice without having to import a big
-            framework.<br /><br />Don't know where to start? Check these:
-          </p>
-          <a href="examples/" class="p-btn p-prim-col">Examples</a>
+          <h3 class="text_black">
+            As a student at <strong class="text_strong_burnt_orange">The University of Texas at Austin</strong>, I aspire to work within the 
+            information technology industry to propel a <strong class="text_strong_red">more secure and tehcnological future</strong>.
+            <br></br>
+            Follow me on social media below:
+          </h3>
+          <a href="https://www.google.com" class="p-btn p-prim-col">Examples</a>
           <a href="examples/" class="p-btn">Documentation</a>
         </div>
         <div class="col-xs-11 col-md-5">
-          <img src="landing-images/devices.png" />
+          <img src="landing-images/memoji.png" />
         </div>
       </div>
     </div>

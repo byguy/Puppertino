@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'league_spartan_extralight';
+    src: url('leaguespartanvariable-webfont.woff2') format('woff2'),
+         url('leaguespartanvariable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_black';
+    src: url('LeagueSpartan-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_bold';
+    src: url('LeagueSpartan-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_extra_bold';
+    src: url('LeagueSpartan-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_light';
+    src: url('LeagueSpartan-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_medium';
+    src: url('LeagueSpartan-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_regular';
+    src: url('LeagueSpartan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_spartan_semi_bold';
+    src: url('LeagueSpartan-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
