@@ -56,6 +56,36 @@
   padding: 10px 30px;
 }
 
+.p-btn-round span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.p-btn-round span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.p-btn-round:hover span {
+  padding-right: 25px;
+}
+
+.p-btn-round:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
 .p-btn-icon {
     background: #fff;
     border: 2px solid currentColor;
@@ -73,6 +103,15 @@
     text-align: center;
 }
 
+.p-btn-icon_linkedin {
+  im
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .p-btn-icon svg{
   width: 1.14rem;
   height: 1.14rem;

@@ -90,11 +90,13 @@
         font-size: 4rem;
       }
       h2 {
-        font-size: 50px;
-        font-family: "league_spartan_medium";
+        font-size: 60px;
+        font-family: "league_spartan_semi_bold";
       }
       h3 {
         font-size: 30px;
+        font-family: "league_spartan_medium";
+        text-align: center;
       }
       h4 {
         font-size: 25px;
@@ -124,12 +126,10 @@
       }
       .liberty_mutual {
         min-height: 30vh;
-        background: #f1c140;
+        background: #f4d176;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        opacity: 0.75;
-        padding: 10vh 3vw;
       }
       .container-no-pad .row {
         margin: 0px;
@@ -140,81 +140,90 @@
         
       }
       .liberty_h2 {
+        font-family: "league_spartan_semi_bold";
         margin-bottom: 5px;
+        text-align: center;
       }
       .liberty_p {
+        font-family: "league_spartan_medium";
         margin: 0;
+        text-align: center;
       }
       .pad_5 {
         padding: 2vh 0vw 2vh;
+      }
+      .align-center {
+        align-content: center;
+        align-items: center;
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="cta_pupper">
-      
-      <h1>Introducing</h1>
-
-      <br></br>
+      <img href="#" src="landing-images/byGuyWhite.png">
       <h2 style="color: var(--text_color_white);">
         Let your passion ring.
       </h2>
       <br></br>
-      <a
-        href="https://github.com/byguy/"
-        class="p-btn p-btn-round"
-        >Access GitHub</a
-      >
+      <a href="https://github.com/byguy/" 
+      class="p-btn p-btn-round" 
+      style="vertical-align:middle"><span>Access GitHub </span></a>
       <br></br><br></br><br></br>
       <!-- <a href="examples/" class="p-link">Read the docs</a> -->
     </div>
     <div class=" container-no-pad pad_5">
       <div class="row around-xs middle-xs">
-        <h2 class="title text_blue">More than just a name.</h2>
         <div class="col-xs-11 col-md-5">
           <img src="landing-images/byGuyDefImg.png" />
         </div>
         <div class="col-xs-11 col-md-offset-1 col-md-5">
+          <h2 class="title text_blue">More than just a name.</h2>
           <h3 class="text_black">
             Learning should <strong class="text_strong_red">never</strong> stop, no matter how difficult or obscure it may be. 
             <br></br>
-            By Guy is committed to pursuing the thing that matters most: <strong class="text_strong_red">passion</strong>. The belief that <strong class="text_strong_red">all amazing 
+            By Guy is committed to pursuing the thing that matters most: 
+            <strong class="text_strong_red">passion</strong>. The belief that <strong class="text_strong_red">all amazing 
               things</strong> come from that innate drive.
             <br></br>
-            From developing applications to video editing, By Guy is committed to turning those crazy ideas into a <strong class="text_strong_red">reality</strong>. 
+            From developing applications to video editing, true joy comes from turning those crazy ideas into a <strong class="text_strong_red">reality</strong>. 
             </h3>
         </div>
       </div>
     </div>
 
     <div class="liberty_mutual container-no-pad pad_5">
-      <div class="col-xs-11 col-md-5">
-        <img src="landing-images/libertyLogo_long.png" />
+      <div>
+        <img src="landing-images/libertyLogo_long.png" width="600" opacity: 0.75; />
       </div>
-      <div class="row">
-        <div class="col-xs-11">
-          <h2 class="liberty_h2">The Internship Expereince</h2>
+      <div class="row around-xs">
+        <div class="col-md-5">
+          <h2 class="liberty_h2">The Internship Experience.</h2>
           <p class="liberty_p">
-            As a TechStart Intern at Liberty Mutual Insurance, I've had the ability to push beyond my current knowledge while working for a Fortune 100 Company.
+            As a TechStart Intern at Liberty Mutual Insurance, 
+            I've had the ability to push beyond my current knowledge 
+            while working for a Fortune 100 Company.
           </p>
+          <a href="#" class="center_align p-btn p-btn-round" style="vertical-align:middle"><span>Explore </span></a>
           <br></br>
-          <a href="#" class="p-btn p-btn-round">Explore</a>
         </div>
       </div>
+      <a href="#" class="p-btn p-btn-round" style="vertical-align:middle"><span>Explore </span></a>
     </div>
 
     <div class="container-no-pad pad_5">
-      <h2 class="title text_blue">About me.</h2>
+      <h2 class="title text_blue">Meet Guy.</h2>
       <div class="row around-xs">
         <div class="col-xs-11 col-md-5">
           <h3 class="text_black">
             As a student at <strong class="text_strong_burnt_orange">The University of Texas at Austin</strong>, I aspire to work within the 
-            information technology industry to propel a <strong class="text_strong_red">more secure and tehcnological future</strong>.
+            information technology industry to propel a <strong class="text_strong_red">more secure and technological future</strong>.
             <br></br>
-            Follow me on social media below:
+            Follow me on social media!
           </h3>
-          <a href="https://www.google.com" class="p-btn p-prim-col">Examples</a>
-          <a href="examples/" class="p-btn">Documentation</a>
+          <a class="p-btn p-btn-round" style="vertical-align:middle"><span><img src="social-media-icons/github.svg"/></span></a>
+          <a class="p-btn p-btn-round" style="vertical-align:middle"><span><img src="social-media-icons/insta.svg"/></span></a>
+          <a class="p-btn p-btn-round" style="vertical-align:middle"><span><img src="social-media-icons/linkedin.svg"/></span></a>
         </div>
         <div class="col-xs-11 col-md-5">
           <img src="landing-images/memoji.png" />
