@@ -4,9 +4,44 @@
   border-radius: 5px;
   color: #333230;
   display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
   font-family: "Inter", sans-serif;
   font-size: 17px;
-  margin: 10px;
+  padding: 5px 20px;
+  justify-content: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.p-btn-blackish{
+  background: #2D2926FF;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.p-btn-border{
+  background: #fff;
+  border:2px solid #2D2926FF;
+  border-radius: 5px;
+  color: #2D2926FF;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
   padding: 5px 20px;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -56,6 +91,12 @@
   padding: 10px 30px;
 }
 
+.p-btn-round-border {
+  border: 3;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
 .p-btn-round span {
   cursor: pointer;
   display: inline-block;
@@ -81,41 +122,36 @@
   right: 0;
 }
 
-
-
-
-
-
 .p-btn-icon {
     background: #fff;
     border: 2px solid currentColor;
-    border-radius: 50%;
-    box-shadow: 0 3px 10px -8px #000;
-    color: #0f75f5;
+    border-radius: 50px;
+    color: #2D2926FF;
     font-weight: 900;
     margin: 5px;
     text-decoration: none;
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height:50px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.5s;
 }
 
-.p-btn-icon_linkedin {
-  im
-  width: 36px;
-  height: 36px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
 .p-btn-icon svg{
-  width: 1.14rem;
-  height: 1.14rem;
+  width: 1.45rem;
+  height: 1.45rem;
 }
+
+.p-btn-icon:hover {
+  border: 1;
+  color: #fff;
+  filter: invert(100%);
+  transition: 0.5s;
+}
+
 
 .p-btn-scope {
   background: #8e8e8e;
